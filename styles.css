@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Gotham', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Legal pages */
+.legal {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  line-height: 1.7;
+}
+
+.legal h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2563eb;
+}
+
+.legal h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #111;
+}
+
+.legal p, .legal li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 60px 20px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons img {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+/* Go Back Stylish Button (closer to text) */
+.go-back {
+  margin-bottom: 20px; /* places it right above the main text */
+}
+.go-back a {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.go-back a:hover {
+  background: #1e40af;
+  transform: translateX(-4px);
+}
+
+/* Libra AI Footer Column */
+.ai-info {
+  text-align: left;
+}
+.ai-info .ai-logo {
+  height: 100px;
+  margin-bottom: -40px;
+}
+.ai-info p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
